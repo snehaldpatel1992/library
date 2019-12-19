@@ -1,0 +1,8 @@
+<div>
+  <mat-toolbar>
+    <span> Manage books </span>
+    <span class="spacer"></span>
+    <button mat-button color="primary" (click)="onAddNewBook()">Add book</button>
+  </mat-toolbar>
+  <app-book-list [books]="books"></app-book-list>
+</div>
